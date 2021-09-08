@@ -1,6 +1,6 @@
 # Kameleoon Javascript SDK
 
-Our SDK gives you the possibility of running experiments and activating feature flags on your back-end NodeJS server. Integrating our SDK into your web-application is easy, and its footprint (in terms of memory and network usage) is low.
+Our SDK gives you the possibility of running experiments and activating feature flags on your Javascript platform. Integrating our SDK into your web-application is easy, and its footprint (in terms of memory and network usage) is low.
 
 ## Learn more
 
