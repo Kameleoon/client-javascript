@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.8 - 2022-06-14
+* Fixed an issue when tracking data could be sent twice. Related to: [`triggerExperiment`](https://developers.kameleoon.com/javascript-sdk.html#triggerexperiment) & [`activateFeature`](https://developers.kameleoon.com/javascript-sdk.html#activatefeature)
+
 ## 1.0.7 - 2022-04-12
 * Added method for retrieving data from remote source: [`retrieveDataFromRemoteSource`](https://developers.kameleoon.com/javascript-sdk.html#retrievedatafromremotesource)
 
