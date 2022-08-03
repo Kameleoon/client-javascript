@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.9 - 2022-08-03
+* Added update campaigns and feature flag configurations instantaneously with Real-Time Streaming Architecture: [`documentation`](https://developers.kameleoon.com/javascript-sdk.html#streaming) or [`product updates`](https://www.kameleoon.com/en/blog/real-time-streaming)
+* Added a new method [`onUpdateConfiguration`](https://developers.kameleoon.com/javascript-sdk.html#onUpdateConfiguration) to handle events when configuration data is updated in real time.
+* Added support for **Experiment** & **Exclusive Campaign** conditions. Related to [`triggerExperiment`](https://developers.kameleoon.com/nodejs-sdk.html#triggerexperiment)
+* Fixed an issue when an user which was already registered with a variation gets new randomly selected variation. Related to [`triggerExperiment`](https://developers.kameleoon.com/javascript-sdk.html#triggerexperiment)
+* Added KameleoonData [`Device`](https://developers.kameleoon.com/javscript-sdk.html#device) data. Possible values are: **PHONE**, **TABLET**, **DESKTOP**. 
+* Removed KameleoonData `Interest`
+* Added support of `is among the values` operator for Custom Data
+
 ## 1.0.8 - 2022-06-14
 * Fixed an issue when tracking data could be sent twice. Related to: [`triggerExperiment`](https://developers.kameleoon.com/javascript-sdk.html#triggerexperiment) & [`activateFeature`](https://developers.kameleoon.com/javascript-sdk.html#activatefeature)
 
