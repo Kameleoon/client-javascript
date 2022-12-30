@@ -1,6 +1,20 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.0.0 - 2022-12-30
+* Added support for the new feature flag rules.
+* `activateFeature` & `obtainFeatureVariable` are deprecated.
+* Renaming of methods: 
+  - `obtainVisitorCode` -> [`getVisitorCode`](https://developers.kameleoon.com/javascript-sdk.html#getVisitorCode)
+  - `obtainVariationAssociatedData` -> [`getVariationAssociatedData`](https://developers.kameleoon.com/javascript-sdk.html#getVariationAssociatedData)
+* Methods added for obtaining experiment and feature flag lists along with feature variables:
+  - [`getExperimentList`](https://developers.kameleoon.com/javascript-sdk.html#getExperimentList)
+  - [`getExperimentListForVisitorCode`](https://developers.kameleoon.com/javascript-sdk.html#getExperimentListForVisitorCode)
+  - [`getFeatureList`](https://developers.kameleoon.com/javascript-sdk.html#getFeatureList)
+  - [`getFeatureListForVisitorCode`](https://developers.kameleoon.com/javascript-sdk.html#getFeatureListForVisitorCode)
+  - [`getFeatureAllVariables`](https://developers.kameleoon.com/javascript-sdk.html#getFeatureAllVariables)
+* Added support of `is among the values` operator for Custom Data
+
 ## 1.0.9 - 2022-08-03
 * Added update campaigns and feature flag configurations instantaneously with Real-Time Streaming Architecture: [`documentation`](https://developers.kameleoon.com/javascript-sdk.html#streaming) or [`product updates`](https://www.kameleoon.com/en/blog/real-time-streaming)
 * Added a new method [`onUpdateConfiguration`](https://developers.kameleoon.com/javascript-sdk.html#onUpdateConfiguration) to handle events when configuration data is updated in real time.
