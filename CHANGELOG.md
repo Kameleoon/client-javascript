@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.0.1 - 2023-01-13
+* Bug fix: localStorage data is not saved correctly.
+
 ## 2.0.0 - 2022-12-30
 * Added support for the new feature flag rules.
 * `activateFeature` & `obtainFeatureVariable` are deprecated.
