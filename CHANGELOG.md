@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.1.0 - 2023-01-17
+* Added client initialization with `configDataFile`, which prevents api data call by using custom configuration passed as `configDataFile`.
+
 ## 2.0.1 - 2023-01-13
 * Bug fix: localStorage data is not saved correctly.
 
