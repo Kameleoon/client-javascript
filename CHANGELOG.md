@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.1.1 - 2023-02-02
+* Bug fix: replace `XMLHttpRequest` with `node-fetch` for compatibility with React Native.
+
 ## 2.1.0 - 2023-01-17
 * Added client initialization with `configDataFile`, which prevents api data call by using custom configuration passed as `configDataFile`.
 
