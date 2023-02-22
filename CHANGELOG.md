@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 3.0.0 - 2023-02-22
+* Replaced the `fetchCallback` api with a `dispatchEvent` callback api on client initialization.
+
 ## 2.1.1 - 2023-02-02
 * Bug fix: replace `XMLHttpRequest` with `node-fetch` for compatibility with React Native.
 
